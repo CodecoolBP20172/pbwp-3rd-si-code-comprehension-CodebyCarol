@@ -35,7 +35,8 @@ if guess == number: #after while loop ended, inspects if user input equals to
                                      #number to string
     print('Good job, ' + myName + '! You guessed my number in ' + guessesTaken + ' guesses!')
 #prints out a reply, containing the user's name and the guessesTaken variables
-if guess != number:#after the while loop ended, and the user input not equals to the random generated number
-    number = str(number)#transforms the random generated number to string
+if guess != number: #after the while loop ended, and the user input not equals
+                    #to the random generated number
+    number = str(number) #transforms the random generated number to string
     print('Nope. The number I was thinking of was ' + number)
 #prints out the solution
